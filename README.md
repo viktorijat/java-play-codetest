@@ -1,6 +1,6 @@
 # Qudini web developer code test
 
-To test how quickly you can pick up a new project and follow requirements we ask candidates to do the following project (in either Play 1.2.7 or Play 2) that meets the following requirements: 
+To test how quickly you can pick up a new project and follow requirements we ask candidates to do the following project (in either Play 1.4.x or Play 2.x) that meets the following requirements: 
 
 - Fork this project 
 - Start a new Play framework app
