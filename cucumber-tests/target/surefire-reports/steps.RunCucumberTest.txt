@@ -1,0 +1,7 @@
+-------------------------------------------------------------------------------
+Test set: steps.RunCucumberTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.271 s <<< FAILURE! - in steps.RunCucumberTest
+Add new customers(Adding new customers)  Time elapsed: 0.083 s  <<< ERROR!
+java.nio.file.NoSuchFileException: /Users/viktorija/java-play-codetest/cucumber-tests/cucumber-tests/src/test/resources/files/customers.json
+

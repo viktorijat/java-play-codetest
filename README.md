@@ -19,3 +19,10 @@ Bonus points:
 
 - Some tests to ensure your code is working as expected
 - An API is great, but how about adding some UI for easy upload of the file. 
+
+
+From Viktorija:
+
+to start the project:
+cd java-play-codetest/customers
+mvn clean install
