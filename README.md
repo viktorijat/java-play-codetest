@@ -23,6 +23,15 @@ Bonus points:
 
 From Viktorija:
 
-to start the project:
+to start the spring boot application:
 cd java-play-codetest/customers
 mvn clean install
+mvn spring-boot:run
+
+to run the react app open a new tab:
+cd java-play-codetest/customers-board-react/
+npm install
+npm start
+
+to run the cucumber tests open a new tab: 
+right click on the file "cucumber-tests/src/test/resources/features/customers.feature"
