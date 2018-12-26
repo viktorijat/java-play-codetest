@@ -11,9 +11,9 @@ public final class FileLoader {
 
     public static String getStringFromJson(String fileName) throws IOException {
 
-        File filesPath = new File(System.getProperty("user.dir") + "/cucumber-tests/src/test/resources/files");
-        File resourceFile = new File(filesPath + "/" + fileName + ".json");
-        return readFile(resourceFile.getAbsolutePath());
+        String path = Thread.currentThread().getContextClassLoader().getResource("files/" + fileName).getFile();
+        File testFile = Paths.get(path).toFile();
+        return readFile(testFile.getAbsolutePath());
     }
 
     private static String readFile(String path) throws IOException {

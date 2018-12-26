@@ -26,6 +26,9 @@ From Viktorija:
 to start the spring boot application:
 - cd java-play-codetest/customers
 - mvn clean install
+
+new tab, 
+- cd java-play-codetest/customers
 - mvn spring-boot:run
 
 to run the react app open a new tab:
@@ -33,5 +36,7 @@ to run the react app open a new tab:
 - npm install
 - npm start
 
-to run the cucumber tests open a new tab: 
+to run the cucumber tests open a new tab (after the application started): 
 - right click on the file "cucumber-tests/src/test/resources/features/customers.feature"
+- or cd java-play-codetest/cucumber-tests
+- mvn test
